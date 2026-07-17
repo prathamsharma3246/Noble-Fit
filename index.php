@@ -1,5 +1,5 @@
 <?php
-require_once __DIR__ . '/includes/auth.php';
+require\_once**DIR**.'/admin/includes/auth.php';
 $db = getDb();
 
 $productCount = $db->query("SELECT COUNT(*) c FROM products WHERE is_active=1")->fetch_assoc()['c'];
